@@ -13,6 +13,10 @@
 Arquivo A | versão 1 | versão 2
 Arquivo B | versão 1 | versão 2
 
+## Clonar o Projeto
+git clone: https://github.com/ericayabiku/curso-frontend.git
+
+
 ## Comits
 Informação de alteração
 - após testado todo o código
