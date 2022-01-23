@@ -20,6 +20,11 @@ git clone: https://github.com/ericayabiku/curso-frontend.git
 ## Comits
 Informação de alteração
 - após testado todo o código
+- git add *
+- git commit -m "mensagem""
+- git push (enviar alterações para o repositório GitHub)
+- git pull (puxar/ trazer informações do GitHub para sua máquina)
+
 
 ## Git Flow
 Fluxo do Git
