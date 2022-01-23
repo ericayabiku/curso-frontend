@@ -33,6 +33,7 @@ são ramificações / versões paralelas
 - versionamento 1.0.0
 
 ### Merge
+Mescla de branchs
 
 
 
