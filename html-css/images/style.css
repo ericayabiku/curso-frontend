@@ -80,9 +80,6 @@ p {
 
 
 
-.navegacao {
-	
-}
 
 .navegacao li {
 	border-bottom-width: 70%;
@@ -179,7 +176,7 @@ footer {
 
 @media (max-width:768px) {
 	nav {
-	  width: 30vw;
+	  width: 100%;
 	}
 	article {
 	  width: 70vw;
@@ -202,4 +199,6 @@ footer {
 	nav, article, .coluna {
 		  width: 100%;
 		  min-width: 320px;
+	}
+}
 
