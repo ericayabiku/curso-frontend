@@ -184,6 +184,9 @@ footer {
 
 
 @media (max-width:768px) {
+	header img {
+		width: 100%;
+	}
 	nav {
 	  width: 30vw;
 	}
@@ -197,6 +200,9 @@ footer {
 	}
   }
   @media (max-width: 600px) {
+	  header img {
+		  width: 100%;
+	  }
 	nav, article {
 	  width: 100%;
 	  height: auto;
@@ -205,6 +211,9 @@ footer {
   
   /* Smartphone */
   @media (max-width:425px) {
+	  header img {
+		  width: 100%;
+	  }
 	nav, article, .coluna {
 		  width: 100%;
 		  min-width: 320px;
