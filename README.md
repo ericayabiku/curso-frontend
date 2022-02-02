@@ -53,5 +53,15 @@ Mescla de branchs
 UNIFORM RESOURCE LOCATOR 
 - Url Amigável: humanos + mecanismos de busca
 
+### Exercício
+
+1. Criar Landing Page 
+2. Criar Newsletter
+3. Publicar projeto em um servidor web
+4. Criar URL amigável para compartilhamento: 
+5. Convidar pessoas nas suas redes sociais para sua landing page
+6. Enviar newsletter para lista de contatos com link para a página do post
+7. Commitar código no seu repositório do GitHub
+8. Enviar links para avaliação na plataforma da EBAC
 
 
