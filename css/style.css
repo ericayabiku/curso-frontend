@@ -222,6 +222,7 @@ footer {
 	  font-size: 1rem;
   }
   h3 {
+	  text-align: left;
 	  font-size: 1.4rem;
   }
  
@@ -232,7 +233,7 @@ footer {
 		background-repeat: repeat;
 	}
   nav, article {
-	  text-align: center;
+	  text-align: left;
 	width: 100%;
 	height: auto;
   }
@@ -242,10 +243,10 @@ footer {
 }
 p {
 	text-align: left;
-	font-size: 1rem;
+	font-size: 2rem;
 }
 h3 {
-	font-size: 1.4rem;
+	font-size: 2.5rem;
 }
 
 }
