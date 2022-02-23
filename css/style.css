@@ -42,11 +42,16 @@ h3 {
 	text-align: left;
 }
 
-}
   li {
 	font-family: 'Poppins', sans-serif;
 	color: black;
 	font-size: 1.8rem;
+}
+li a {
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	font-size: 1.8rem;
+
 }
 
 a  img {
@@ -250,8 +255,6 @@ p {
 	font-size: 2rem;
 }
 
-
-}
 #banner {
 	text-align: center;
 	background-image: url(../images/landingpagejpg.jpg);
