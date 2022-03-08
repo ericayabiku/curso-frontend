@@ -64,9 +64,5 @@ UNIFORM RESOURCE LOCATOR
 7. Commitar código no seu repositório do GitHub
 8. Enviar links para avaliação na plataforma da EBAC
 
-# Code Togheter
-1. descrever um algoritmo para resolvero problema da 'travessia' de modo seguro; um homem precisa atravessarum rio com um barco que possui capacidade apenas para carregar ele mesmo e mais um e seus tres pertences, que são: um lobo, uma cabra e um maço de alfafa. em cada viagem só poderá ir o homem e apenas um de seus pertences. A seguinte regra deverá ser respeitada: o lobo nao pode ficar sozinho com a cabra e nem a cabra sozinha com o maço de alfafa. escreva um algoritmo para fazer a travessia dos pertences que estao em uma margem do rio para outra.
 
-2. JS: Exibir média de 3 números com entradas pelo formulario HTML
-enviar links do git ou do fiddle.
 
