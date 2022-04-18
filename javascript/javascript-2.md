@@ -78,13 +78,13 @@ Sao utilizadas para referenciar espaço na memória
 - Módulo  (resto de divisão) %
 - Math: random(), round(), sqrt()
 
-* Atribuiçao
-a = b
-a += b 
-a -= b
-a *= b
-a /= b 
-a %= b  
+# Atribuiçao
+- a = b
+- a += b 
+- a -= b
+- a *= b
+- a /= b 
+- a %= b  
 
 ## Comparadores matemáticos: teste lógico, retorno booleano (true/false):
 - menor que <
