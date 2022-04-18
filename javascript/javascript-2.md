@@ -75,3 +75,15 @@ Algoritmo
 
  - LTS (latest) - ultima versao estável do software / programa
  
+### Após concluir a instalaçao 
+Rodar em um novo terminal: node -v
+
+## Variáveis
+Sao utilizadas para referenciar espaço na memória
+
+- var
+- const (fica com o valor imutável)
+- let
+- string (tipo de variável)
+- tipagem: número ou string
+- array: conjunto de valores
