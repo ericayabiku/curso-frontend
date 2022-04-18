@@ -34,27 +34,6 @@ Algoritmo
 
 ### Torre de Hanoi
 - Mover todos os discos para a direita, com o menor númerode movimentos possível, sem colocar um disco em cima de um disco menor: https://www.soumatematica.com.br/jogos/hanoi
-# Operadores
-
-## Aritméticos
-+ somar
-- subtrair 
-* multiplicar
-/ dividir
-% resto de divisão
-
-## Comparadores matemáticos: teste lógico, retorno booleano (true/false):
-< menor que
- >  maior que
-<= menor ou igual
-=> maior ou igual
-
-## Comparadores lógicos: teste lógico, retorno booleano (true/false):
-== igualdade entre sentenças (valor)
-!= diferença entre sentenças (valor)
-=== igualdade entre sentenças (valor e tipo)
-!== diferença entre sentenças (valor e tipo)
- 
  ## Funcionalidades gerais
  - Criar algoritmos e programas para executar no navegador: client side
  - Manipular o DOM: elementos, eventos, estilos
@@ -87,3 +66,26 @@ Sao utilizadas para referenciar espaço na memória
 - string (tipo de variável)
 - tipagem: número ou string
 - array: conjunto de valores
+
+
+# Operadores
+
+## Aritméticos
++ somar
+- subtrair 
+* multiplicar
+/ dividir
+% resto de divisão
+
+## Comparadores matemáticos: teste lógico, retorno booleano (true/false):
+< menor que
+ >  maior que
+<= menor ou igual
+=> maior ou igual
+
+## Comparadores lógicos: teste lógico, retorno booleano (true/false):
+== igualdade entre sentenças (valor)
+!= diferença entre sentenças (valor)
+=== igualdade entre sentenças (valor e tipo)
+!== diferença entre sentenças (valor e tipo)
+ 
