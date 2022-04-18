@@ -71,21 +71,29 @@ Sao utilizadas para referenciar espaço na memória
 # Operadores
 
 ## Aritméticos
-+ somar
-- subtrair 
-* multiplicar
-/ dividir
-% resto de divisão
+ - somar +
+- subtrair - 
+- multiplicar *
+- dividir /
+- Módulo  (resto de divisão) %
+- Math: random(), round(), sqrt()
+
+* Atribuiçao
+a = b
+a += b 
+a -= b
+a *= b
+a /= b 
+a %= b  
 
 ## Comparadores matemáticos: teste lógico, retorno booleano (true/false):
-< menor que
- >  maior que
-<= menor ou igual
-=> maior ou igual
+- menor que <
+- maior que >
+- <= menor ou igual
+- => maior ou igual
 
-## Comparadores lógicos: teste lógico, retorno booleano (true/false):
-== igualdade entre sentenças (valor)
-!= diferença entre sentenças (valor)
-=== igualdade entre sentenças (valor e tipo)
-!== diferença entre sentenças (valor e tipo)
+- == igualdade entre sentenças (valor)
+- != diferença entre sentenças (valor)
+- === igualdade entre sentenças (valor e tipo)
+- !== diferença entre sentenças (valor e tipo)
  
