@@ -45,7 +45,7 @@ Algoritmo
 
 ## Comparadores matemáticos: teste lógico, retorno booleano (true/false):
 < menor que
-> maior que
+ >  maior que
 <= menor ou igual
 => maior ou igual
 
@@ -54,4 +54,24 @@ Algoritmo
 != diferença entre sentenças (valor)
 === igualdade entre sentenças (valor e tipo)
 !== diferença entre sentenças (valor e tipo)
+ 
+ ## Funcionalidades gerais
+ - Criar algoritmos e programas para executar no navegador: client side
+ - Manipular o DOM: elementos, eventos, estilos
+ - Node.js: framework JS para back-end / runtime em JS
+ - Mongo.db / GraphQL: banco de dados em JS
+ - React / Vue.js / Angular: framework JS para desenvolvimento web e mobile 
+ - React Native: framework JS para desenvolvimento mobile 
+
+ - recebe e manipula dados
+ - tomar decisoes baseados na lógica computacional
+ - loops e interaçoes
+ - condiçoes de saída
+
+ ### Executar o JS
+ - console browsers 
+ - Editores: Sublime, Visual Studio Code
+ - JS Fiddle https://jsfiddle.net
+
+ - LTS (latest) - ultima versao estável do software / programa
  
