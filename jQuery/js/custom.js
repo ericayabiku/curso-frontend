@@ -11,6 +11,19 @@
         let destaques = $('#featured') // id
     
         console.log(titulos.first());
+    })
+
+    const webpack = require('webpack');
+
+    //...
+    plugins: [
+        new webpack.ProvidePlugin({
+          $: 'jquery',
+          jQuery: 'jquery',
+          'window.jQuery': 'jquery'
+        }),
+    ],
+    //...
     
         // Configuração de produtos
     
@@ -46,6 +59,6 @@
             event.preventDefault();
     
             alert('Produto esgotado');
-    
-         })
+         
+        })
 
