@@ -11,9 +11,11 @@
         let destaques = $('#featured') // id
     
         console.log(titulos.first());
+
+ 
     })
 
-    const webpack = require('webpack');
+   
 
     
         // Configuração de produtos
@@ -54,3 +56,12 @@
           */
 
 
+    //...
+    plugins: [
+        new webpack.ProvidePlugin({
+          $: 'jquery',
+          jQuery: 'jquery',
+          'window.jQuery': 'jquery'
+        }),
+    ]
+    //...
