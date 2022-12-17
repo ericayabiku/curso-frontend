@@ -202,6 +202,14 @@ a {
 	outline: none;
 }
 
+.owl-carousel {
+    display: flex;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
 
 
 /* Subscribe Style */
