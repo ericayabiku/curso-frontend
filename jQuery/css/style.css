@@ -679,7 +679,7 @@ a {
 }
 
 /* Responsive Style */
-@media (max-width: 991px) {
+@media (max-width: 992px) {
 
 	.banner {
 		border-top: none;
@@ -688,6 +688,10 @@ a {
 	.navbar .navbar-brand {
 		width: auto;
 	}
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        margin-top: 150px;
+    }
 	.navbar:after {
 		display: none;
 	}
