@@ -684,6 +684,10 @@ img, svg {
 
 /* Responsive Style */
 @media (max-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: row;
+        margin-top: 150px;
+    }
 
    
 
