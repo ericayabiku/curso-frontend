@@ -17,6 +17,10 @@ a {
 	text-transform: uppercase;
 }
 
+img, svg {
+    width: 20%;
+}
+
 .main-button a {
 	background-color: #3a8bcd;
 	border-radius: 5px;
@@ -681,9 +685,7 @@ a {
 /* Responsive Style */
 @media (max-width: 992px) {
 
-    img, svg {
-        width: 20%;
-    }
+   
 
 	.banner {
 		border-top: none;
