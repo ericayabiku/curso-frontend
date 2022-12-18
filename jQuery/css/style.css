@@ -681,6 +681,10 @@ a {
 /* Responsive Style */
 @media (max-width: 992px) {
 
+    img, svg {
+        width: 20%;
+    }
+
 	.banner {
 		border-top: none;
 		margin-top: 0px;
