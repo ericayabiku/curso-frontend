@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="./vendor/owl/css/owl.carousel.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./vendor/fontawesome/css/all.css">
-    <link rel="stylesheet" href="./vendor/owl/css/owl.carousel.css"
-    >
+    <link rel="stylesheet" href="./vendor/owl/css/owl.carousel.css">
 
  
 <title>JQuery</title>
@@ -35,6 +34,16 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="products.html">Produtos</a>
+                        <script>
+                            $(document).ready(function(){
+                                 $("#ler-pagina").click(function(){
+                                       
+                                     $(function(){
+                                         $("#conteudo-pagina-lida").load("pagina-lida.html"); 
+                                     })
+                                    });
+                            
+                            </script>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">Sobre nós</a>
