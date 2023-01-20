@@ -16,6 +16,62 @@
 
 <body>
 
+    1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Ler página html sem Iframe</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+     
+   <h1>Ler página <button type="button" id="ler-pagina">Ler página</button> </h1>
+   <div id="conteudo-pagina-lida"></div>
+     
+   <script>
+   $(document).ready(function(){
+        $("#ler-pagina").click(function(){
+              
+            $(function(){
+                $("#conteudo-pagina-lida").load("pagina-lida.html"); 
+            });
+        })
+   });
+   </script>
+     
+</body>
+</html>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/images/header-logo.png" alt=""></a>
