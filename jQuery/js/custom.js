@@ -75,11 +75,9 @@
          }) 
 
          .show(2000, function(){
-            console.log($(this).find('h4').text() + 'em estoque')
-            
-
-
-         })
+            console.log($(this).find('h4').text() + 'em estoque') 
+        
+        })
 
         
     
