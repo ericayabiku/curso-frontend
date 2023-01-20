@@ -60,7 +60,28 @@
                 'background': '#ff0',
                 'font-weight': '100',
             });
+        })
     
-         });
+        
 
-   
+         //Callbacks
+
+         $('.featured-item:nth(1)')
+         .hide(2000, function(){
+            //* esse é um callback
+         //* entendendo açoes que começam no término de outra
+         console.log($(this).find('h4').text() + 'esgotado')
+            
+         }) 
+
+         .show(2000, function(){
+            console.log($(this).find('h4'),text() + 'em estoque')
+            
+
+
+         })
+
+        
+    
+
+    
