@@ -49,10 +49,6 @@
     
                  
          })
-         $(function() {
-            $("#carrossel"). jCarouselLite({
-                btnPrev: '.prev', 
-                btnNext: '.next',
-                visible: 3
-            })
-        })
+         $(document).ready(function(){
+            $(".owl-carousel").owlCarousel();
+          });
