@@ -201,6 +201,11 @@ a {
 	outline: none;
 }
 
+.owl-theme .owl-carousel {
+	display: block;
+	width: 15%;
+}
+
 
 
 /* Subscribe Style */
