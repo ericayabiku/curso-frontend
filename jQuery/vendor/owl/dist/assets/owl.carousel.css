@@ -7,7 +7,7 @@
  *  Owl Carousel - Core
  */
 .owl-carousel {
-  display: none;
+  display: flex;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
@@ -184,3 +184,13 @@
   z-index: 1;
   height: 100%;
   width: 100%; }
+
+  @media (max-width:778px) {
+
+    .owl-carousel {
+      width: 75%;
+      display: block;
+
+    }
+    
+  }
