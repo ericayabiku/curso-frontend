@@ -127,8 +127,8 @@ img, svg {
 /* Banner Style */
 .banner {
 	margin-top: 50px;
-	background-image: url(../assets/images/banner-bg.jpg);
-	background-size: cover;
+	background-image: url(../assets/images/banner-bg.png);
+	background-size: auto;
 	background-repeat: no-repeat;
 	padding: 150px 0px;
 	background-position: center center;
