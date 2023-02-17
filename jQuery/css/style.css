@@ -44,7 +44,7 @@ img, svg {
 .section-heading .line-dec {
 	width: 30px;
 	height: 5px;
-	background-color: #3a8bcd;
+	background-color: #f20b92;
 }
 .section-heading h1 {
 	font-size: 22px;
@@ -88,7 +88,6 @@ img, svg {
 .navbar-dark .navbar-nav .nav-link {
 	text-transform: uppercase;
 	font-size: 15px;
-	font-weight: 700;
 	color: #1e1e1e;
 	transition: all 0.5s;
 }
@@ -97,7 +96,7 @@ img, svg {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-	color: #3a8bcd;
+	color: #e419ae;
 }
 .navbar:after {
 	width: 100%;
@@ -112,7 +111,7 @@ img, svg {
 	background-image: none;
 }
 .navbar-dark .navbar-toggler {
-	border-color: #3a8bcd;
+	border-color: #db1515;
 	background-color: #3a8bcd;	
 	height: 50px;
 	outline: none;
@@ -148,7 +147,7 @@ img, svg {
 .banner .caption .line-dec {
 	width: 30px;
 	height: 5px;
-	background-color: #3a8bcd;
+	background-color: #eb157d;
 }
 .banner .caption p {
 	margin-top: 15px;
@@ -179,10 +178,10 @@ img, svg {
 	transition: all 0.5s;
 }
 .featured-item:hover h4 {
-	color: #3a8bcd;
+	color: #eb13bc;
 }
 .featured-item h6 {
-	color: #3a8bcd;
+	color: #ed0fc8;
 	font-size: 15px;
 	font-weight: 700;
 	margin-bottom: 0px;
@@ -203,7 +202,7 @@ img, svg {
 	outline: none;
 }
 .owl-theme .owl-dots .active span {
-	background-color: #3a8bcd!important;
+	background-color: #ee15c6!important;
 }
 .owl-theme .owl-dots .owl-dot span {
 	background-color: #aaa;
@@ -308,7 +307,7 @@ img, svg {
 	transition: all 0.5s;
 }
 .footer .footer-menu a:hover {
-	color: #3a8bcd;
+	color: #f109a8;
 	text-decoration: none;
 }
 .footer .social-icons {
@@ -330,7 +329,7 @@ img, svg {
 	transition: all 0.5s;
 }
 .footer .social-icons a:hover {
-	background-color: #3a8bcd;
+	background-color: #f20bb8;
 }
 
 /* Sub Footer Style */
@@ -369,7 +368,7 @@ img, svg {
 	transition: all 0.5s;
 }
 .featured .featured-item:hover h4 {
-	color: #3a8bcd;
+	color: #ef07d4;
 }
 #filter button {
 	outline: none;
@@ -751,7 +750,16 @@ img, svg {
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+
+	p {
+		font-size: 36px;
+	}
+
+	.banner .caption h2 {
+		font-size: 35px;
+	}
+
 
 	.subscribe-form .main-content form input.button {
 		margin-top: 20px;
@@ -760,5 +768,30 @@ img, svg {
 		margin-top: 15px;
 		text-align: left;
 	} 
+
+	.featured-item h4  {
+		font-size: 40px;
+	}
+
+	.featured-item h6 {
+		font-size: 40px;
+	}
+
+	.btn {
+		font-size: 2rem;
+	}
+
+	.logo {
+		background-size: auto;
+	}
+
+	.footer .footer-menu a {
+		font-size: 45px;
+	}
+
+	.sub-footer p {
+		font-size:  25px;
+	}
+
 
 }
